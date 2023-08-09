@@ -1,4 +1,4 @@
-# Fabric Clothing App
+# CRWN-Clothing V2 GraphQL
 
 ## Installation 💻
 
