@@ -2,7 +2,7 @@
 
 ## Installation 💻
 
-To run the Fabric Clothing App locally, follow these steps:
+To run the CRWN-Clothing V2 GraphQL locally, follow these steps:
 
 1. Clone the repository:
 
@@ -34,7 +34,7 @@ To run the Fabric Clothing App locally, follow these steps:
    yarn start
    ```
 
-6. Open your browser and visit [http://localhost:3000](http://localhost:3000) to access the Fabric Clothing App.
+6. Open your browser and visit [http://localhost:3000](http://localhost:3000) to access the CRWN-Clothing V2 GraphQL app.
 
 ## Technologies Used 🔧
 
@@ -60,7 +60,7 @@ Here's an overview of the project's folder structure:
 
 ## Contributing 🤝
 
-We welcome contributions to the Fabric Clothing App project! If you would like to contribute, please follow these steps:
+We welcome contributions to the CRWN-Clothing V2 GraphQL App project! If you would like to contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature/fix: `git checkout -b feature-name`.
@@ -76,4 +76,4 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 If you have any questions, suggestions, or feedback, please don't hesitate to reach out. You can contact the project maintainer at nidhibelthangady@gmail.com.
 
-Happy shopping with the Fabric Clothing App! 🛍️
+Happy shopping with the CRWN-Clothing V2 GraphQL App! 🛍️
