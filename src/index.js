@@ -1,4 +1,4 @@
-import { AppoloClient, AppoloProvider, InMemoryCache } from "@apollo/client";
+import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter } from "react-router-dom";
@@ -10,7 +10,7 @@ import { UserProvider } from "./contexts/user.context";
 
 import "./index.scss";
 
-const client = new AppoloClient({
+const client = new ApolloClient({
 	uri: "https://crwn-clothing.com/",
 	cache: new InMemoryCache(),
 });
@@ -19,7 +19,7 @@ const rootElement = document.getElementById("root");
 
 render(
 	<React.StrictMode>
-		<AppoloProvider client={client}>
+		<ApolloProvider client={client}>
 			<BrowserRouter>
 				<UserProvider>
 					<CategoriesProvider>
@@ -29,7 +29,7 @@ render(
 					</CategoriesProvider>
 				</UserProvider>
 			</BrowserRouter>
-		</AppoloProvider>
+		</ApolloProvider>
 	</React.StrictMode>,
 	rootElement
 );
