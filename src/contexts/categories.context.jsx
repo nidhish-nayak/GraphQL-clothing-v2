@@ -21,7 +21,7 @@ const COLLECTIONS = gql`
 `
 
 export const CategoriesProvider = ({ children }) => {
-  const { loading, error, data } = useQuery(COLLECTIONS);
+  const { loading, data } = useQuery(COLLECTIONS);
   const [categoriesMap, setCategoriesMap] = useState({});
 
   useEffect(() => {
